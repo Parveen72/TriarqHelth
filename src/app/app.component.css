@@ -1,0 +1,44 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  button{
+    border: 1px solid transparent;
+    width:120px;
+    height: 35px;
+    text-align: right;
+    padding-top:-5px;
+  }
+  imgcontainer{
+
+      margin-left: 25px;  
+  }
+  .card{
+    display: inline-block;
+    margin: 15px 10px 10px;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+.card-text{
+  font-size: 18px;
+  color: rgb(241, 97, 97);
+}
+.example-button-row{
+  width: 120px;
+  margin-left: 45px;
+  border: 1px solid rgb(207, 203, 203);
+}
+.card-title{
+  font-size: x-large;
+  font-weight: bold;
+}
+.btncls{
+  width: 20px;
+  margin-left: 5px;
+  height: 28px;
+  text-align: center;
+}
+.card-img-top{
+  width: 120px;
+  height: 120px;
+}

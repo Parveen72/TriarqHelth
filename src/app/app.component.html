@@ -1,0 +1,85 @@
+
+<!-- <h1>Lets Start</h1>
+<div>
+    <form>
+        <div>
+            Email    : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" placeholder="Enter Email" name="email" [(ngModel)]="email"><br><br>
+
+            Password : <input type="password" placeholder="Enter Password" name="pass" [(ngModel)]="pass"><br><br>
+
+            <input type="button" value="Login" (click)="login()">
+
+        </div>
+
+    </form> -->
+    <!-- <p>
+        <mat-toolbar color="primary">
+          <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+            <mat-icon>menu</mat-icon>
+          </button>
+          <span>My App</span>
+          <span class="example-spacer"></span>
+          <button mat-raised-button color="warn" ><mat-icon>shopping_cart</mat-icon>Buy Now</button> -->
+          <!-- <button mat-button color="warn"><mat-icon>shopping_cart</mat-icon>Buy Now</button> -->
+
+
+        <!-- </mat-toolbar>
+      </p> -->
+
+      <!-- <button class="button button-primary"> hello</button>
+      <button type="button" class="btn btn-primary">Primary</button> -->
+
+<!-- 
+<div class="row">
+  <div class="col-md-8" style="text-align:center ;">
+  <div class="card" style="width: 15rem; height: 300px;" *ngFor="let p of prodArray">
+      <img class="card-img-top" src={{p.img}} alt="Card image cap">
+      <div class="card-body"  >
+        <h5 class="card-title">{{p.pname}}</h5>
+        <p class="card-text">${{p.amt}}</p>
+        
+        
+          <div class="example-button-row">
+            <button  class="btncls" (click)="decrease(p)">-</button>
+            <button style="width: 45px; margin-left:5px; text-align:center;">{{p.qunt}}</button>
+            <button class="btncls" (click)="increase(p)">+</button>
+
+          </div>
+        
+          <button mat-raised-button style="margin-top:10px ; text-align: center;" (click)="addtotbl(p)">Add to Bag </button>
+        </div>
+    </div>
+
+    <table class="table table-striped" >
+      <thead>
+        <tr>
+        <th>Product Name</th>
+        <th>Price</th>
+        <th>Quntity</th>
+        <th>TotalPrice</th>
+        <th>Bill</th>
+
+        <th>Remove</th>
+      </tr>
+     
+      
+      </thead>
+      <tbody *ngIf="tf">
+        <tr *ngFor="let t of tblArr let i = index">
+          <td>{{t.productname}}</td>
+          <td>{{t.prodprice}}</td>
+          <td>{{t.prodqunt}}</td>
+          <td>{{t.prodtot}}</td>
+          <td><b>{{t.bill}}</b></td>
+
+          <td><button mat-raised-button color="warn" (click)="remove(t)" style="width:25px;text-align: center ;">X</button></td>
+          </tr>
+          </tbody>
+    </table>
+    
+
+</div>
+</div> -->
+      <!-- <app-product></app-product>  -->
+      <app-triark></app-triark>
+<router-outlet></router-outlet>
